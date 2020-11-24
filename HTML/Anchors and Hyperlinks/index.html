@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchors and Hyperlinks</title>
+</head>
+
+<body>
+    <h1>Link to another site</h1>
+    <a href="https://www.digitalocean.com/" rel="external">Link to Digital Ocean</a>
+
+    <h1>Link to an anchor</h1>
+    <h2 id="Topic1">First Topic</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit quaerat tempora provident ad laboriosam
+        temporibus. Minus corrupti sit vitae quisquam quos. Vero consectetur consequuntur adipisci inventore blanditiis.
+        Nostrum, repudiandae?</p>
+    <h2 id="Topic2">Second Topic</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit quaerat tempora provident ad laboriosam
+        temporibus. Minus corrupti sit vitae quisquam quos. Vero consectetur consequuntur adipisci inventore blanditiis.
+        Nostrum, repudiandae?</p>
+    <h2>Table of contents</h2>
+    <a href="#Topic1">First Topic</a>
+    <a href="#Topic2">Second Topic</a>
+
+    <h1>Link that dials a number</h1>
+    <a href="tel:+919952968215">Contact Us</a>
+
+    <h1>Open link in new Tab/Window</h1>
+    <a href="https://www.heroku.com/" target="noopener nonreferrer">Link to Heroku</a>
+
+    <h1>Link that runs JavaScript - Option 1</h1>
+    <a href="javascript:myFunction();">Run code</a>
+
+    <h1>Link that runs JavaScript - Option 2</h1>
+    <a href="#!" onclick="myFunction();">Run Code</a>
+
+    <h1>Link that runs email client - Without Cc and Bcc</h1> 
+    <a href="mailto:example@example.com">Send email</a>
+
+    <h1>Link that runs email client - With Cc and Bcc</h1> 
+    <a href="mailto:example@example.com/cc=john@example.com&bcc=jane@example.com">Send email</a>
+
+    <h1>Link that runs email client - With Subject and Body</h1> 
+    <a href="mailto:example@example.com?subject=Example+subject&body=Message+text">Send email</a>
+    <script>
+        function myFunction(){
+            document.write("Hello World!");
+        }
+    </script>
+</body>
+
+</html>

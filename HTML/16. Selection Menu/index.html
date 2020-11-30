@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Menu in HTML</title>
+</head>     
+<body>
+    <div class="select-option">
+        <h1>Drop Down Menu</h1>
+        <div class="select-menu-no-size">
+            <h3>Without size</h3>
+            <select name="animals" id="selectAnimals">
+                <option value="1">Dog</option>
+                <option value="2">Cat</option>
+                <option value="3">Bird</option>
+                <option value="4">Horse</option>
+            </select>
+        </div>
+        
+        <div class="select-menu-with-size">
+            <h3>With size</h3>
+            <select name="occupation" id="selectOccupation" size="4">
+                <option value="1">Teacher</option>
+                <option value="2">Engineer</option>
+                <option value="3">Entreprenuer</option>
+                <option value="4">Accountant</option>
+                <option value="5">Others</option>
+            </select>
+        </div>
+
+        <div class="multiple-selection">
+            <h3>Multiple choices</h3>
+            <select name="colors" id="selectColors" multiple>
+                <option value="1">Red</option>
+                <option value="2">Blue</option>
+                <option value="3">Yellow</option>
+                <option value="4">Black</option>
+            </select>
+            <p>Hold ctrl+windows(windows)/command(MacOS)</p>
+        </div>
+
+        <div class="option-groups">
+            <h3>Options Groups</h3>
+            <select name="products" id="selectProducts">
+                <option value="milk">Milk</option>
+                <optgroup label="Fruits">
+                    <option value="banana">Banana</option>
+                    <option value="strawberry">Strawberry</option>
+                </optgroup>
+                <optgroup label="Veggies">
+                    <option value="carrot">Carrot</option>
+                    <option value="bittergourd">Bittergourd</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div class="data-list-options">
+            <h3>Datalists - provides autocomplete feature</h3>
+            <input list="Languages">
+            <datalist id="Languages">
+                <option value="PHP">
+                <option value="Python">
+            </datalist>
+        </div>
+    </div>
+</body>
+</html>

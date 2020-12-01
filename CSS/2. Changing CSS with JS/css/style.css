@@ -1,0 +1,11 @@
+.heading {
+    color: #474747;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.paragraph {
+    color: #474747;
+    font-weight: lighter;
+    font-family: Verdana;
+}

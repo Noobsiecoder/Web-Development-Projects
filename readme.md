@@ -1,5 +1,5 @@
 # Web Development Projects
-***
+
 ## Introduction
 
 Web application for educational purposes. The applications are:-

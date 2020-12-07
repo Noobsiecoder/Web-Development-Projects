@@ -81,6 +81,7 @@
 
 .add-btn,
 .minus-btn {
+    font-size: 0.5em;
     width: 44px;
     height: 44px;
     border: none;
@@ -178,16 +179,331 @@
 /* Media queries */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .navbar {
+        height: 4.5em;
+        background-image: linear-gradient(to right, #396afc, #2948ff);
+    }
+
+    .app-logo {
+        float: left;
+        position: relative;
+        top: 1.1em;
+        left: 4em;
+    }
+
+    .logo {
+        border-radius: 3px;
+    }
+
+    .app-title {
+        top: 0.9em;
+    }
+
+    .title-text {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 2.3em;
+        color: #fff;
+    }
+
+    .main-content {
+        position: relative;
+        top: 4em;
+    }
+
+    .count {
+        display: flex;
+        justify-content: center;
+    }
+
+    .circle {
+        align-items: center;
+        line-height: 15em;
+        width: 15em;
+        background-color: #f3f4f3;
+        border-radius: 50%;
+    }
+
+    .count-text {
+        text-align: center;
+        color: #202020;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 7em;
+    }
+
+    .change-value-btn {
+        position: relative;
+        text-align: center;
+        top: 2em;
+    }
+
+    #btn1,
+    .space,
+    #btn2 {
+        display: inline-block;
+    }
+
+    .space {
+        width: 15em;
+    }
+
+    .add-btn,
+    .minus-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    #btnThree {
+        position: relative;
+        text-align: center;
+        top: 3.5em;
+    }
+
+    .reset-btn {
+        align-items: center;
+        width: 135px;
+        height: 42px;
+    }
+
+    .footer {
+        height: 55px;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    .navbar {
+        height: 4.6em;
+    }
+
+    .app-logo {
+        top: 1.1em;
+        left: 4em;
+    }
+
+    .main-content {
+        top: 4em;
+    }
+
+    .circle {
+        line-height: 14.5em;
+        width: 14.5em;
+    }
+
+    .change-value-btn {
+        top: 2em;
+    }
+
+    .space {
+        width: 16em;
+    }
+
+    .add-btn,
+    .minus-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .add-btn:hover,
+    .minus-btn:hover {
+        background-color: #0265dd;
+        box-shadow: 2px 7px 7px -2px rgba(0, 0, 0, .25);
+    }
+
+    #btnThree {
+        top: 4em;
+    }
+
+    .reset-btn {
+        width: 135px;
+        height: 45px;
+    }
+
+    .footer {
+        height: 52px;
+        /* Height of the footer */
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .navbar {
+        height: 5em;
+    }
+
+    .app-logo {
+        top: 1.4em;
+        left: 8em;
+    }
+
+    .logo {
+        width: 45px;
+        height: 40px;
+        border-radius: 6px;
+    }
+
+    .app-title {
+        top: 1em;
+    }
+
+    .title-text {
+        font-size: 2.4em;
+    }
+
+    .main-content {
+        top: 4em;
+    }
+
+    .circle {
+        line-height: 18em;
+        width: 18em;
+    }
+
+    .count-text {
+        font-size: 9em;
+    }
+
+    .change-value-btn {
+        top: 2em;
+    }
+
+    .add-btn,
+    .minus-btn {
+        width: 52px;
+        height: 52px;
+    }
+
+    #btnThree {
+        top: 4em;
+    }
+
+    .reset-btn {
+        width: 145px;
+        height: 48px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 55px;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .navbar {
+        height: 5em;
+    }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+    .app-logo {
+        top: 1.5em;
+        left: 10em;
+    }
+
+    .logo {
+        width: 45px;
+        height: 40px;
+        border-radius: 6px;
+    }
+
+    .app-title {
+        top: 0.8em;
+    }
+
+    .title-text {
+        font-size: 2.7em;
+    }
+
+    .main-content {
+        top: 4em;
+    }
+
+    .circle {
+        line-height: 16em;
+        width: 16em;
+    }
+
+    .count-text {
+        font-size: 9em;
+    }
+
+    .change-value-btn {
+        top: 2em;
+    }
+
+    .add-btn,
+    .minus-btn {
+        width: 42px;
+        height: 42px;
+    }
+
+    #btnThree {
+        top: 3.5em;
+    }
+
+    .reset-btn {
+        width: 125px;
+        height: 40px;
+    }
+
+    .reset-text {
+        font-size: 1.2em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1368px and up) */
+@media only screen and (min-width: 1368px) {
+    .navbar {
+        height: 5.5em;
+    }
+
+    .app-logo {
+        top: 1.7em;
+        left: 12em;
+    }
+
+    .logo {
+        width: 50px;
+        height: 45px;
+        border-radius: 8px;
+    }
+
+    .app-title {
+        top: 1.2em;
+    }
+
+    .title-text {
+        font-size: 2.7em;
+    }
+
+    .main-content {
+        top: 5em;
+    }
+
+    .circle {
+        line-height: 18em;
+        width: 18em;
+    }
+
+    .count-text {
+        font-size: 2em;
+    }
+
+    .add-btn,
+    .minus-btn {
+        width: 48px;
+        height: 48px;
+    }
+
+    #btnThree {
+        top: 4em;
+    }
+
+    .reset-btn {
+        width: 145px;
+        height: 48px;
+    }
+
+    .reset-text {
+        font-size: 1.2em;
+    }
+}

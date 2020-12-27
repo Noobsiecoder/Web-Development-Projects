@@ -4,6 +4,7 @@
 
 Web application for educational purposes. The applications are:-
 * Counter App
+* Error page
 * More to come
 
 ## Contributing

@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Open+Sans:wght@300&family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {}
+
+.error-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    margin-bottom: 28px;
+}
+
+.image {
+    width: 238px;
+}
+
+.error-content {
+    display: table;
+    margin: 0 auto 16px;
+    width: 238px;
+}
+
+.error-title {
+    font-family: 'Archivo', sans-serif;
+    color: #2F2E41;
+    font-size: 36px;
+    letter-spacing: -0.35px;
+}
+
+.error-message {
+    margin-top: 6px;
+    font-family: 'Open Sans', sans-serif;
+    color: #242424;
+    font-size: 18px;
+    letter-spacing: -0.35px;
+}
+
+.error-code {
+    margin-top: 3px;
+    font-family: 'Poppins', sans-serif;
+    color: #2F2E41;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: -0.65px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.home-btn {
+    width: 238px;
+    height: 42px;
+    border: 1px solid #6C63FF;
+    background-color: #6C63FF;
+    color: #ffffff;
+    border-radius: 6px;
+    outline: none;
+}
+
+/* Small phone devices
+ * Width ranges from 281px to 767px
+ * Potrait Mode 
+ */
+@media only screen and (min-width: 281px) and (max-width: 375px) and (orientation: portrait){
+    .error-image {
+        margin-top: 30%;
+    }
+
+    .image {
+        width: 84%;
+    }
+
+    .error-content {
+        width: 84%;
+        margin-top: 10%;
+    }
+
+    .error-title {
+        font-size: 214%;
+    }
+
+    .error-message {
+        margin-top: 4%;
+        font-size: 126%;
+    }
+
+    .error-code {
+        margin-top: 3%;
+        font-size: 132%;
+        margin-bottom: 0%;
+    }
+
+    .home-btn {
+        width: 85%;
+    }
+}
+
+/* Large phone devices
+ * Width ranges from 375px to 520px
+ * Potrait Mode 
+ */
+ @media only screen and (min-width: 375px) and (max-width: 520px) and (orientation: portrait){
+    .error-image {
+        margin-top: 30%;
+    }
+
+    .image {
+        width: 84%;
+    }
+
+    .error-content {
+        width: 84%;
+        margin-top: 10%;
+    }
+
+    .error-title {
+        font-size: 236%;
+    }
+
+    .error-message {
+        margin-top: 4%;
+        font-size: 136%;
+    }
+
+    .error-code {
+        margin-top: 3%;
+        font-size: 140%;
+        margin-bottom: 2%;
+    }
+
+    .home-btn {
+        width: 85%;
+        font-size: 112%;
+        height: 48px;
+    }
+}
+
+/* Small tablet devices
+ * Width ranges from 768px to 996px
+ * Potrait Mode 
+ */
+ @media only screen and (min-width: 768px) and (max-width: 996px) and (orientation: portrait) {
+    .error-image {
+        margin-top: 24%;
+    }
+
+    .image {
+        width: 84%;
+    }
+
+    .error-content {
+        margin-top: 6%;
+        width: 84%;
+    }
+
+    .error-title {
+        font-size: 464%;
+    }
+
+    .error-message {
+        margin-top: 2%;
+        font-size: 196%;
+    }
+
+    .error-code {
+        margin-top: 3%;
+        font-size: 198%;
+        margin-bottom: 0%;
+    }
+
+
+    .home-btn {
+        width: 85%;
+        font-size: 180%;
+        height: 72px;
+    }
+}
+
+/* Smart phone and small tablet devices
+ * Height ranges from 568px to 823px
+ * Landscape Mode 
+ */
+@media only screen and (min-width:568px) and (max-width:823px) and (orientation:landscape) {
+    .error-image {
+        justify-content: unset;
+        margin-top: 12%;
+        margin-left: 6%;
+    }
+
+    .image {
+        width: 48%
+    }
+
+    .error-content {
+        margin-top: -26%;
+        margin-right: 6%;
+        width: 36%;
+    }
+
+    .error-title {
+        font-size: 148%;
+    }
+
+    .error-message {
+        margin-top: 2%;
+        font-size: 90%;
+    }
+
+    .error-code {
+        margin-top: 3%;
+        font-size: 98%;
+        margin-bottom: 0%;
+    }
+
+    .btn {
+        justify-content: unset;
+        margin-left: 58%;
+        margin-top: -1%;
+    }
+
+    .home-btn {
+        width: 80%;
+        height: 36px;
+    }
+}
+
+/* Large Tablet, Desktop and laptop devices
+ * Width from 1024px
+ */
+@media only screen and (min-width: 1024px) {
+    .error-image {
+        justify-content: unset;
+        margin-top: 12%;
+        margin-left: 12%;
+    }
+
+    .image {
+        width: 48%
+    }
+
+    .error-content {
+        margin-top: -25%;
+        margin-right: 12%;
+        width: 25%;
+    }
+
+    .error-title {
+        font-size: 376%;
+    }
+
+    .error-message {
+        margin-top: 4%;
+        font-size: 144%;
+    }
+
+    .error-code {
+        margin-top: 3%;
+        font-size: 136%;
+        margin-bottom: 6%;
+    }
+
+    .btn {
+        justify-content: unset;
+        margin-left: 63%;
+    }
+
+    .home-btn {
+        width: 64%;
+        height: 42px;
+    }
+}

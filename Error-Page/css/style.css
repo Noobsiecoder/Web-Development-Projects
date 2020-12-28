@@ -106,9 +106,9 @@
  * Width ranges from 375px to 520px
  * Potrait Mode 
  */
- @media only screen and (min-width: 375px) and (max-width: 520px) and (orientation: portrait){
+ @media only screen and (min-width: 375px) and (max-width: 576px) and (orientation: portrait){
     .error-image {
-        margin-top: 30%;
+        margin-top: 25%;
     }
 
     .image {
@@ -184,10 +184,10 @@
 }
 
 /* Smart phone and small tablet devices
- * Height ranges from 568px to 823px
+ * Height ranges from 568px to 996px
  * Landscape Mode 
  */
-@media only screen and (min-width:568px) and (max-width:823px) and (orientation:landscape) {
+@media only screen and (min-width:568px) and (max-width:996px) and (orientation:landscape) {
     .error-image {
         justify-content: unset;
         margin-top: 12%;
